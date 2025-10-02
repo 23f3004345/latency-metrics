@@ -1,0 +1,77 @@
+[
+  {
+    "region": "amer",
+    "latency_ms": 120,
+    "uptime": 0.99
+  },
+  {
+    "region": "amer",
+    "latency_ms": 150,
+    "uptime": 0.98
+  },
+  {
+    "region": "amer",
+    "latency_ms": 200,
+    "uptime": 1.0
+  },
+  {
+    "region": "amer",
+    "latency_ms": 180,
+    "uptime": 0.99
+  },
+  {
+    "region": "amer",
+    "latency_ms": 160,
+    "uptime": 1.0
+  },
+  {
+    "region": "emea",
+    "latency_ms": 100,
+    "uptime": 0.99
+  },
+  {
+    "region": "emea",
+    "latency_ms": 140,
+    "uptime": 0.98
+  },
+  {
+    "region": "emea",
+    "latency_ms": 190,
+    "uptime": 1.0
+  },
+  {
+    "region": "emea",
+    "latency_ms": 170,
+    "uptime": 0.99
+  },
+  {
+    "region": "emea",
+    "latency_ms": 150,
+    "uptime": 1.0
+  },
+  {
+    "region": "apac",
+    "latency_ms": 130,
+    "uptime": 0.99
+  },
+  {
+    "region": "apac",
+    "latency_ms": 160,
+    "uptime": 0.98
+  },
+  {
+    "region": "apac",
+    "latency_ms": 210,
+    "uptime": 1.0
+  },
+  {
+    "region": "apac",
+    "latency_ms": 185,
+    "uptime": 0.99
+  },
+  {
+    "region": "apac",
+    "latency_ms": 155,
+    "uptime": 1.0
+  }
+]
