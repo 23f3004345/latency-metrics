@@ -18,7 +18,7 @@ Accepts a JSON request body with the following structure:
 Returns per-region metrics:
 - `avg_latency`: Mean latency in milliseconds
 - `p95_latency`: 95th percentile latency in milliseconds
-- `avg_uptime`: Mean uptime (0-1)
+- `avg_uptime`: Mean uptime as a percentage (0-100)
 - `breaches`: Count of records where latency exceeds the threshold
 
 Example response:
@@ -28,13 +28,13 @@ Example response:
   "amer": {
     "avg_latency": 162,
     "p95_latency": 214.0,
-    "avg_uptime": 0.992,
+    "avg_uptime": 99.2,
     "breaches": 2
   },
   "emea": {
     "avg_latency": 150,
     "p95_latency": 204.0,
-    "avg_uptime": 0.992,
+    "avg_uptime": 99.2,
     "breaches": 1
   }
 }

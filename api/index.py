@@ -46,7 +46,7 @@ class handler(BaseHTTPRequestHandler):
                 
                 # Extract latency and uptime values
                 latencies = [entry['latency_ms'] for entry in region_data]
-                uptimes = [entry['uptime'] for entry in region_data]
+                uptimes = [entry.get('uptime_pct', entry.get('uptime', 0) * 100) for entry in region_data]
                 
                 # Calculate metrics
                 avg_latency = statistics.mean(latencies)
